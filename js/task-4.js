@@ -8,10 +8,10 @@ form.addEventListener("submit",(event)=>
     if(email.value.trim() == "" || password.value.trim() == "" ){
         alert('All form fields must be filled in');
     }
-    const Object = {
+    else{const Object = {
         email: `${email.value.trim()}`,
         password: `${password.value.trim()}`
     }
-    console.log(Object);
+    console.log(Object);}
     form.reset();
 })
