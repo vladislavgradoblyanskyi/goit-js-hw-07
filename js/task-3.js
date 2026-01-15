@@ -1,4 +1,4 @@
-let input = document.querySelector("input");
+let input = document.querySelector("#name-input");
 let span = document.querySelector("#name-output");
 
 input.addEventListener("input",(event)=> 

@@ -27,8 +27,10 @@ const images = [
 
 const gallery = document.querySelector(".gallery");
 images.forEach(img => {
-  let insert = document.createElement("img");
-  insert.alt = img.alt;
-  insert.src = img.url;
-  gallery.append(insert);
+  let insertLi = document.createElement("li");
+  let insertImg = document.createElement("img");
+  insertImg.alt = img.alt;
+  insertImg.src = img.url;
+  insertLi.append(insertImg);
+  gallery.append(insertLi);
 });

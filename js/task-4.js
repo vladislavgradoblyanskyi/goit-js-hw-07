@@ -13,6 +13,7 @@ form.addEventListener("submit",(event)=>
         email: `${email.value.trim()}`,
         password: `${password.value.trim()}`
     }
-        console.log(Object);}
-    form.reset();
+        console.log(Object);
+        form.reset();
+    }
 })
