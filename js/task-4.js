@@ -11,7 +11,8 @@ form.addEventListener("submit",(event)=>
     else{const Object = {
         email: `${email.value.trim()}`,
         password: `${password.value.trim()}`
-    }
-    console.log(Object);}
+    
+    console.log(Object);
+        }
     form.reset();
 })
